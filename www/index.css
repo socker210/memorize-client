@@ -1,0 +1,72 @@
+/** Common **/
+body { background-color:#ECEAEB !important; }
+
+/** Header **/
+.header { display:inline-block; line-height:2rem; background-color:#C8B394; width:100%; box-shadow: 0px 3px 6px -2px #C8B394; }
+.header .logo { display:inline-block; font-family: "Pacifico", cursive; font-size:1.5rem; padding:8px; color:#052546; font-weight:bold; cursor:default; }
+.header .links { display:inline-block; float:right; }
+.header .links .item { display:inline-block; padding:8px; }
+.header .links .item a { color:#ECEAEB; font-weight:bold; outline:0; transition: color 0.2s; }
+.header .links .item a:hover { text-decoration:none; color:#FFFFFF; }
+
+@media (max-width: 768px) {
+	.header .logo { width:100%; text-align:center; }
+	.header .links { float:none; display:block; width:100%; text-align:center; }
+	.header .links .item a { font-size:0.925rem; }
+}
+
+/** Memorize View **/
+.memorize { padding:25px 0px 25px 0px; }
+
+/** MemoItem **/
+.memoitem { margin:0px 0px 15px 0px; }
+.memoitem .buttons { text-align:right; }
+.memoitem .buttons .button { font-size:0.8rem; padding:0px 3px; }
+.memoitem .buttons .edit {}
+.memoitem .buttons .delete { color:#dc3545; }
+.memoitem .buttons .appear { color:#41754E; }
+
+/** Memorizer **/
+.memorizer-wrap { margin:2rem 0; text-align:center; }
+.memorizer-wrap .memorizer { width:100%; max-width:350px; display:inline-block; padding:10px; box-shadow: 0px 0px 8px -2px #888888; background-color:#E7DDDC; }
+.memorizer-wrap .memorizer .remove-margin-top { margin-top:0px !important; }
+.memorizer-wrap .memorizer .label { text-align:left; margin-top:5px; }
+.memorizer-wrap .memorizer .label span { font-size:0.925rem; color:#6c757d; }
+.memorizer-wrap .memorizer .input {}
+.memorizer-wrap .memorizer .input textarea { resize:none; min-height:200px; }
+.memorizer-wrap .buttons { margin-top:10px; }
+
+/** Messeger **/
+.messenger { cursor:pointer; margin-top: 25px; }
+
+/** Function Provider **/
+.function-provider-wrap { display:inline-block; margin-bottom:15px; }
+.function-provider-wrap .page-indicator-wrap { display:inline-block; margin: 0px 10px 0px 10px; }
+
+/** Test Type **/
+.test-type-wrap { margin:2rem 0; text-align:center; }
+.test-type-wrap .test-type { width:100%; max-width:350px; display:inline-block; padding:10px; box-shadow: 0px 0px 8px -2px #888888; background-color:#E7DDDC; }
+
+/** Question **/
+.question-wrap { margin: 25px 0px 25px 0px; }
+.question-wrap .answer { margin-bottom: 15px; }
+.question-wrap .btn-show-answer {margin-left: 5px;}
+
+/** Multiple Choice **/
+.multiple-choice-wrap { margin-top: 15px; }
+
+/** Short Answer Question **/
+.short-answer-question-wrap { margin-top: 15px; }
+
+/** Meta Data **/
+.meta-data { margin-bottom: 3px; }
+.meta-data small { margin-right: 8px; }
+
+/** Test Result **/
+.test-result-wrap { margin-top: 15px; }
+.test-result-wrap th { font-size: 11px; color: #686868; }
+.test-result-wrap td { font-size: 11px; color: #686868; }
+.test-result-wrap .center { text-align:center; }
+.test-result-wrap .right { text-align:right; }
+.test-result-wrap .r { color: #155724;; }
+.test-result-wrap .w { color: #721C24; }

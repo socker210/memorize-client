@@ -1,0 +1,8 @@
+# YARN Module packages
+node_modules/
+
+# Distribute folder
+www/dist/
+
+# Heroku distribute folder
+heroku-dist/
